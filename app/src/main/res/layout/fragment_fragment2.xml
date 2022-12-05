@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment2"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location :"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/addressText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Address"
+        android:textColor="@android:color/black"
+        android:textSize="19sp"
+        android:padding="30sp"/>
+
+    <Button
+        android:id="@+id/DAD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAD" />
+    <Button
+        android:id="@+id/MOM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MOM" />
+    <Button
+        android:id="@+id/FRIEND"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FRIEND" />
+
+
+</LinearLayout>
